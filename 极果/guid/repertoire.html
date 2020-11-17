@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./guid-reper.css">
+    <link rel="stylesheet" href="../css/public.css">
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div class="header-box clearfix">
+            <div class="logo">
+                <img src="../img/logonew.png" alt="">
+            </div>
+            <div class="nav">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">酷玩</a>
+                    </li>
+                    <li>
+                        <a href="#">导购</a>
+                    </li>
+                    <li>
+                        <a href="#">试用</a>
+                    </li>
+                    <li>
+                        <a href="#">报告</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="reg_b clearfix">
+                <a class="search" href=""></a>
+                <a class="reg" href="">注册</a>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- 导购清单 -->
+        <div class="nav">
+            <div class="nav-top">
+                <p>导购清单</p>
+            </div>
+            <div class="nav-b">
+                <span class="orange"> 最新</span>
+                <span> 最热</span>
+            </div>
+        </div>
+        <!-- 导购清单结束 -->
+    </header>
+
+
+
+    <!-- 内容 -->
+    <article>
+        <div class="box">
+            <ul id="lis" class="clearfix">
+                <!-- <li>
+                    <img src="../img/g1.jpg" alt="">
+                    <div class="tex">
+                        <a href="#">花万元把蜗居秒变“豪宅” ？这12件家具技能帮你办到</a>
+                    </div>
+                    <div class="xin">
+                        <img src="../css/img/xin.png" alt="" class="x"> 3
+                        <img src="../css/img/reply.png" alt="" class="x"> 3
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </article>
+    <script id="one" type="text/x-dot-template">
+        {{~ it:value:index}}
+             <li>
+                 <img src={{=value.img}} alt="">
+                 <div class="tex">
+                     <a href="">{{=value.text}}</a>
+                 </div>
+                 <div class="xin">
+                     <a href="">{{=value.like}}</a>
+                     <a href="">{{=value.words}}</a>
+                 </div>
+             </li>
+        {{~}}
+     </script>
+   
+
+
+
+
+
+
+    <!-- 尾部 -->
+    <footer class="footer">
+        <div class="footer-box clearfix">
+            <div class="code">
+                <img src="../img/code.png" alt="">
+            </div>
+            <div class="msg">
+                <div class="msg_logo">
+                    <img src="../img/logoImg.jpg" alt="">
+                </div>
+                <p class="meg_1">
+                    全球酷玩试用导购平台酷·新奇·好玩·品质
+                </p>
+                <p class="meg_2">
+                    全球酷玩试用导购平台酷·新奇·好玩·品质
+                </p>
+            </div>
+            <ul class="f-content clearfix">
+                <li>
+                    <p><a href=""> 免费试用</a></p>
+                    <p> <a href="">试用流程</a></p>
+                    <p> <a href="">如何提高成功率</a></p>
+                </li>
+                <li>
+                    <p> <a href="">友情链接</a></p>
+                    <p>
+                        <a href="">智东西</a>
+                        <a href="">WEIBUSI</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐IT</a>
+                        <a href="">腾讯科技</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐数码</a>
+                        <a href="">凤凰科技</a>
+                    </p>
+                    <p>
+                        <a href="">凤凰数码</a>
+                        <a href="">PConline</a>
+                    </p>
+                    <p>
+                        <a href="">泡泡网</a>
+                        <a href="">3W咖啡</a>
+                    </p>
+                    <p>
+                        <a href="">
+                            <a href=""></a>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">极客公园</a>
+                        <a href="">易迅易启玩</a>
+                    </p>
+                    <p>
+                        <a href="">果库</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">美亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">日亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">海淘转运攻略</a>
+                    </p>
+                    <p>
+                        <a href="">kickstarter </a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">indiegogo</a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">厂商合作</a>
+                    </p>
+                    <p>
+                        <a href="">关于极果</a>
+                    </p>
+                    <p>
+                        <a href="">联系我们</a>
+                    </p>
+                    <p>
+                        <a href="">商务合作：BD@jiguo.com</a>
+                    </p>
+                    <p>
+                        <a href="">CEO邮箱：CEO@jiguo.com</a>
+                    </p>
+                </li>
+            </ul>
+            <div class="f-bot">
+                <span>&copy; 2016 极果版权所有</span>
+            </div>
+            <div class="up">
+                <a href="#"></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./doT.min.js"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="./guid-repertoir.js"></script>
+    
+</body>
+
+</html>
