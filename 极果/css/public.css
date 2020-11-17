@@ -1,0 +1,126 @@
+.header {
+  width: 100%;
+  background-color: #ffff;
+}
+.header .header-box {
+  width: 1200px;
+  height: 75px;
+  margin: 0 auto;
+}
+.header .header-box .logo {
+  padding-top: 10px;
+  margin-left: 100px;
+  float: left;
+}
+.header .header-box .logo img {
+  display: block;
+  width: 135px;
+  height: 50px;
+}
+.header .header-box .nav {
+  float: left;
+  margin-top: 32px;
+  margin-left: 64px;
+}
+.header .header-box .nav ul li {
+  margin-left: 48px;
+  float: left;
+}
+.header .header-box .nav ul li a {
+  font-size: 20px;
+}
+.header .header-box .nav ul li:first-child a {
+  color: #FF453B;
+}
+.header .header-box .reg_b {
+  margin-top: 20px;
+  float: right;
+  margin-right: 100px;
+}
+.header .header-box .reg_b .search {
+  float: left;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url(img/search.png) no-repeat 0 6px;
+  margin-right: 32px;
+}
+.header .header-box .reg_b .reg {
+  float: left;
+  display: block;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #FF453B;
+  line-height: 30px;
+  text-align: center;
+  color: #FF453B;
+}
+.footer {
+  width: 100%;
+  height: 360px;
+  background-color: #505050;
+  position: relative;
+}
+.footer .footer-box {
+  width: 1200px;
+  height: 360px;
+  margin: 0 auto ;
+}
+.footer .footer-box .code {
+  margin-left: 100px;
+  padding-top: 40px;
+  float: left;
+}
+.footer .footer-box .msg {
+  width: 134px;
+  padding-top: 40px;
+  margin-left: 21px;
+  float: left;
+}
+.footer .footer-box p {
+  font-size: 13px;
+  color: #a3a3a3;
+}
+.footer .footer-box .meg_1 {
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+.footer .footer-box .f-content {
+  float: left;
+  padding-top: 40px;
+}
+.footer .footer-box .f-content li {
+  float: left;
+  margin-right: 28px;
+}
+.footer .footer-box .f-content li:first-child {
+  margin-left: 30px;
+}
+.footer .footer-box .f-content li p:first-child {
+  margin-bottom: 28px;
+}
+.footer .footer-box .f-content li p:first-child a {
+  color: #ffff;
+}
+.footer .footer-box .f-content li p a {
+  color: #a3a3a3;
+}
+.footer .footer-box .f-bot {
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+}
+.footer .footer-box .up {
+  position: absolute;
+  right: 10%;
+  bottom: 60px;
+}
+.footer .footer-box .up a {
+  display: block;
+  width: 51px;
+  height: 50px;
+  background: url(img/back.png) no-repeat 50% 50%;
+  background-color: #e8e8e8;
+  border-radius: 10%;
+}
