@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   background-color: #ffff;
+  border-bottom: 1px solid #d0d0d0;
 }
 .header .header-box {
   width: 1200px;
