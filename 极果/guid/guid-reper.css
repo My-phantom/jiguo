@@ -119,5 +119,6 @@ article ul li .xin {
   margin-top: 30px;
 }
 article ul li .xin .x {
+  background: url('../css/img/xin.png');
   width: 13px;
 }

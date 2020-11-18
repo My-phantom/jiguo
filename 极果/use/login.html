@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./login.css">
+    <style src="./js/jquery-3.5.1.js"></style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="login clearfix">
+            <div class="login-left">
+                <p>极果账号登陆</p>
+                <div class="pho">
+                    <input type="tel" id="tel" placeholder="手机号" required pattern="/^1(3|4|5|7|8)[0-9]{9}$/g" />
+                </div>
+                <div class="num">
+                    <input type="password" id="password" placeholder="密码" required pattern="^\w{6,10}$" />
+                </div>
+                <div class="text">
+                    <span class="next-text"><input class="loadGiet" type="checkbox" />下次自动登录</span>
+                    <button id="btn">登录</button>
+                </div>
+                <div class="res">
+                    <a href="#" class="res-new">注册新账号</a>
+                    <a href="#" class="forget">忘记密码？</a>
+                </div>
+            </div>
+            <div class="login-right">
+                <p class="right-text">社交网络账号登录</p>
+                <span class="cuo">
+                    <img src="../img/错.png" alt="">
+                </span>
+                <div class="login-img">
+                    <img src="../img/wx.png" alt="">
+                </div>
+                <div class="icon">
+                    <span class="wb">
+                        <i><img src="../img/微博.png" alt=""></i>
+                        微博
+                    </span>
+                    <span class="qq">
+                        <i><img src="../img/qq.png" alt=""></i>
+                        QQ
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/doT.min.js"></script>
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/all.js"></script>
+
+</html>
