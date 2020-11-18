@@ -314,26 +314,26 @@
 <script src="../js/jquery-3.5.1.min.js"></script>
 <script src="./play_new.js"></script>
 <script id="new" type="text/x-dot-template">
-    {{~ it:value:index}}
-        <li>
-           <div class="img_">
-               <img src={{=value.img}} alt="">
-           </div>
-           <div class="con">
-               <p class="tl">
-                   {{=value.description}}
-               </p>
-               <p class="con_">
-                   {{=value.text}}
-               </p>
-               <div class="bt">
-                   <p class="price">
-                       {{=value.price}}
-                   </p>
-                   <p class="like">{{=value.like}}</p>
-                   <p class="sho">{{=value.like}}</p>
-               </div>
-           </div>
-        </li>
-    {{~}}
+        {{~ it:value:index}}
+            <li>
+            <div class="img_">
+                <img src={{=value.img}} alt="">
+            </div>
+            <div class="con">
+                <p class="tl">
+                    {{=value.description}}
+                </p>
+                <p class="con_">
+                    {{=value.text}}
+                </p>
+                <div class="bt">
+                    <p class="price">
+                        {{=value.price}}
+                    </p>
+                    <p class="like">{{=value.like}}</p>
+                    <p class="sho">{{=value.like}}</p>
+                </div>
+            </div>
+            </li>
+        {{~}} 
 </script>

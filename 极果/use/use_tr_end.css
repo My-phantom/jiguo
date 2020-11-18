@@ -1,0 +1,208 @@
+.section {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.section .sec-box {
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.section .sec-box .sec-tl {
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  color: #3a1314;
+  margin-bottom: 20px;
+}
+.section .sec-box .title {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section .sec-box .title span {
+  display: inline-block;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.section .sec-box .title .col {
+  border-bottom: 3px solid #fa5735;
+  color: #fa5735;
+}
+.section .sec-box .tdbox {
+  width: 100%;
+  border: 1px solid #ededed;
+}
+.section .sec-box .tdbox .title_d {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section .sec-box .tdbox .title_d span {
+  display: inline-block;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.section .sec-box .tdbox .title_d .end {
+  font-weight: bold;
+}
+.section .sec-box .tdbox .title_d .col {
+  border-bottom: 3px solid #fa5735;
+  color: #fa5735;
+}
+.main {
+  width: 100%;
+}
+.main .main-box {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.main .main-box li {
+  float: left;
+  width: 221px;
+  height: 285px;
+  border: 1px solid #eaeaea;
+  border-radius: 4% 4% 4% 4%;
+  margin: 13px ;
+  text-align: center;
+  position: relative;
+  transition: 1s;
+}
+.main .main-box li .hidden {
+  width: 221px;
+  height: 285px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+.main .main-box li:hover .hidden {
+  animation: mymove  1s;
+}
+.main .main-box li:hover {
+  transform: scale(1.1);
+}
+@keyframes mymove {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.main .main-box li .img_ {
+  position: relative;
+}
+.main .main-box li .img_ img {
+  display: block;
+  width: 221px;
+  border-radius: 8% 8% 0 0 ;
+}
+.main .main-box li .img_ .fir {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 22px;
+  background-color: red;
+  border-radius: 0 10%;
+  text-align: center;
+  line-height: 22px;
+  color: #fff;
+}
+.main .main-box li .img_ .zx {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75px;
+  height: 22px;
+  background-color: #fdf8d2;
+  border-radius: 0 10%;
+  text-align: center;
+  line-height: 22px;
+  color: #bea678;
+}
+.main .main-box li .tl {
+  margin-top: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+.main .main-box li .bt {
+  margin-left: 10px;
+  padding-top: 14px;
+  text-align: center;
+}
+.main .main-box li .num {
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+.main .main-box li .num .num_lf {
+  float: left;
+  display: block;
+  margin-left: 23px;
+  width: 46px;
+  height: 23px;
+  line-height: 23px;
+  border: 1px solid #cccccc;
+  border-radius: 10%;
+  color: #cccccc;
+}
+.main .main-box li .num .num_r {
+  margin-left: 15px;
+  float: left;
+  display: block;
+  width: 46px;
+  height: 23px;
+  line-height: 23px;
+  border: 1px solid #cccccc;
+  border-radius: 10%;
+  color: #cccccc;
+}
+.main .main-box li .num .red {
+  color: red;
+}
+.main .main-box li .num .gren {
+  color: #63b642;
+}
+.main .main-box li .price {
+  font-size: 14px;
+  color: black;
+}
+.main .main-box li .price span {
+  color: red;
+}
+.main .main-box li .like {
+  text-align: center;
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.main .main-box li .red {
+  color: red;
+}
+.main .main-box li .gren {
+  color: #63b642;
+}
+.main .main-box .clic {
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  color: red;
+  background: url(../css/img/more.png) no-repeat 440px 7px;
+  margin-bottom: 20px;
+}
