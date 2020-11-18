@@ -1,0 +1,308 @@
+/* 把我们所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0
+}
+
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* em 和 i 斜体的文字不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+
+/* 去掉li 的小圆点 */
+li {
+    list-style: none;
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle;
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff514d;
+}
+
+button,
+input {
+    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    outline: none;
+}
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #f7f7f7;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+nav {
+    background: url(../css/img/original.jpg) no-repeat left center;
+    height: 300px;
+    margin-left: -200px;
+
+    .nav {
+
+        div {
+            margin-right: -100px;
+            width: 320px;
+            height: 215px;
+            float: right;
+            color: #fff;
+            text-align: right;
+
+            h1 {
+                font-size: 26px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                padding: 3px 6px;
+                background-color: #f5d095;
+                margin-left: 6px;
+            }
+
+            p {
+                margin: 20px auto;
+                font-size: 13px;
+            }
+
+            button {
+                color: #fff;
+                background-color: #fe5341;
+                padding: 8px 58px;
+                font-size: 14px;
+                border: none;
+            }
+        }
+    }
+   
+}
+.nav-b{
+    background-color: #f0f0f0;
+    ul{
+        padding: 10px;
+        li{
+            float: left;
+            margin: 10px 110px 10px 0px;
+            .kai{
+                border-bottom: 3px solid #f9857c;
+            }
+        }
+        .shiyong{
+            text-align: center;
+            width: 50px;
+            border-left: 5px solid  #fc5545;
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+article{
+    background-color: #fff;
+    .article-left{
+        float: left;
+        width: 700px;
+       .a-lt{
+            p{
+                font-size: 14px;
+            }
+            .p{
+                padding-top: 40px;
+                font-size: 18px;
+                font-weight: 500;
+                span{
+                    margin-right: 10px;
+                    border-left: 5px solid  #fc5545;
+                }
+            }
+            h3{
+                margin-top: 20px;
+                padding-bottom: 30px;
+                color: #ef2c3e;
+            }
+            img{
+                margin: 30px 0;
+            }
+       }
+       .a-lc{
+           .center{
+               h3{
+                   color: #1f7ed8;
+               }
+               p{
+                margin-bottom: 30px;
+                margin-top: 30px;
+                font-size: 14px;
+               }
+           }
+       }
+       .a-lb{
+            p{
+                font-size: 14px;
+            }
+            .p{
+                padding-top: 40px;
+                font-size: 18px;
+                font-weight: 500;
+                span{
+                    margin-right: 10px;
+                    border-left: 5px solid  #fc5545;
+                }
+            }
+            .shi{
+                display: block;
+                margin-bottom: 30px;
+                margin-top: 30px;
+                color: #5796b8;
+                font-size: 14px;
+                font-weight: bold;
+            }
+       }
+       .a-lbottom{
+           margin-bottom: 30px;
+           h3{
+               color: #f23f62;
+           }
+           ul{
+               li{
+                   font-size: 13px;
+                   color: #6f7b81;
+               }
+           }
+       }
+    }
+   .article-right{
+       float: left;
+       .gomai{
+            margin-left: 30px;
+            width: 270px;
+            .p{
+                padding-top: 10px;
+                font-size: 18px;
+                font-weight: 500;
+                span{
+                    margin-right: 10px;
+                    border-left: 5px solid  #fc5545;
+                }
+            }
+            h1{
+                font-weight: 400;
+                font-size: 40px;
+                color: #fb5b4e;
+            }
+            button{
+                width: 250px;
+                height: 50px;
+                background-color: #fe5444;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 15px;
+                color: #fff;
+            }
+            .lai{
+                text-align: center;
+                width: 50px;
+                color: #ada8ab;
+                margin: 10px 100px;
+            }
+       }
+       .flo{
+            float: left;
+            margin-left: 30px;
+            width: 270px;
+            .flo-title{
+
+                span{
+                    font-size: 14px;
+                    padding-left: 22px;
+                    line-height: 25px;
+                    border-left: 4px solid #f85242;
+                }
+            }
+            .flo-img{
+                margin-top: 23px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .fu{
+                margin-top: 20px;
+                margin-bottom: 12px;
+                .flo-text{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                span{
+                    color: #cccccc;
+                    font-size: 14px;
+                    line-height: 25px;
+                }
+                ul{
+                    li{
+                        width: 230px;
+                        font-size: 14px;
+                        color: #cccccc;
+                        line-height: 25px;
+                    }
+                }
+        }
+
+        .flo-bot{
+            margin-top: 64px;
+            .flo-bot-img{
+                margin-bottom: 18px;
+                span{
+                    padding-left: 22px;
+                    font-size: 14px;
+                    line-height: 25px;
+                    border-left: 4px solid #f85242;
+                }
+            }
+        }
+    }
+   }
+}
