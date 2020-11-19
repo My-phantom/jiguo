@@ -175,6 +175,9 @@ article .box-min .box-min-l .x {
 article .box-min .xin-c {
   display: none;
 }
+article .box-min .xin-ch {
+  display: none;
+}
 article .box-min .box-min-r {
   margin-left: -10px;
   border: 2px solid #f4f4f4;
@@ -184,6 +187,12 @@ article .box-min .box-min-r {
   background-color: #FFF;
 }
 article .box-min .box-min-r .wx {
+  position: relative;
   margin: 25px;
   text-align: center;
+}
+article .box-min .box-min-r .wx .bshare-custom {
+  position: absolute;
+  left: 20px;
+  bottom: -23px;
 }
