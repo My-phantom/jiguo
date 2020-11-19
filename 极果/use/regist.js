@@ -68,21 +68,21 @@ $('.copypass').on('blur',function(){
 });
 $('#zcform').on('submit',function(){
     $.ajax({
-        url:'http://192.168.1.64:3000/users/register',
-        type:'post',
-        data:{
-            phone:$('.text').val(),
-            code:$('.picture').val(),
-            username:$('.username').val(),
-            pass:$('.password').val()
+        url: 'http://192.168.1.64:3000/users/register',
+        type: 'post',
+        data: {
+            phone: $('.text').val(),
+            code: $('.picture').val(),
+            username: $('.username').val(),
+            pass: $('.password').val()
         },
-        success:function(res){
+        success: function (res) {
             console.log(res);
-            if(res.msg='注册成功'){
+            if (res.msg == '注册成功！') {
                 window.open('login.html');
             }
         },
-        dataType:'json'
-    })
+        dataType: 'json'
+    });
     return false;
 })
