@@ -2,10 +2,15 @@
 if (localStorage.getItem('miss') == 'true') {
     $('#tel').val(localStorage.getItem('username'));
     $('#password').val(localStorage.getItem('password'));
+<<<<<<< HEAD
     // $('.loadGiet').is(':checked');
     $('.loadGiet').attr('checked',true);
     window.open('../index.html');
 
+=======
+    $('.loadGiet').attr('checked', true);
+    window.open('../index.html');
+>>>>>>> 473efbd9e99a2adbbe2439580204f1942da09eb2
 }
 $('#loginform').on('submit', function () {
     $.ajax({
@@ -21,12 +26,12 @@ $('#loginform').on('submit', function () {
                 if ($('.loadGiet').is(':checked')) {
                     localStorage.setItem('username', $('#tel').val());
                     localStorage.setItem('password', $('#password').val());
-                    localStorage.setItem('miss',$('.loadGiet').is(':checked'))
+                    localStorage.setItem('miss', $('.loadGiet').is(':checked'))
                 } else {
                     localStorage.clear();
-            
+                    window.open('../index.html');
                 }
-                window.open('../index.html');
+
             }
         },
         dataType: 'json'
