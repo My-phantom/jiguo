@@ -2,8 +2,15 @@
 if (localStorage.getItem('miss') == 'true') {
     $('#tel').val(localStorage.getItem('username'));
     $('#password').val(localStorage.getItem('password'));
+<<<<<<< HEAD
+    // $('.loadGiet').is(':checked');
+    $('.loadGiet').attr('checked',true);
+    window.open('../index.html');
+
+=======
     $('.loadGiet').attr('checked', true);
     window.open('../index.html');
+>>>>>>> 473efbd9e99a2adbbe2439580204f1942da09eb2
 }
 $('#loginform').on('submit', function () {
     $.ajax({
@@ -11,7 +18,7 @@ $('#loginform').on('submit', function () {
         type: 'post',
         data: {
             username: $('#tel').val(),
-            password: $('#password').val()
+            password: $('#password').val(),
         },
         success: function (res) {
             console.log(res)
@@ -30,4 +37,4 @@ $('#loginform').on('submit', function () {
         dataType: 'json'
     })
     return false;
-})
+}) 
