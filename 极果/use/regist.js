@@ -74,7 +74,7 @@ $('#zcform').on('submit',function(){
             phone: $('.text').val(),
             code: $('.picture').val(),
             username: $('.username').val(),
-            pass: $('.password').val()
+            password: $('.password').val()
         },
         success: function (res) {
             console.log(res);
