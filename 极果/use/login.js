@@ -2,7 +2,10 @@
 if (localStorage.getItem('miss') == 'true') {
     $('#tel').val(localStorage.getItem('username'));
     $('#password').val(localStorage.getItem('password'));
-    $('.loadGiet').is(':checked');
+    // $('.loadGiet').is(':checked');
+    $('.loadGiet').attr('checked',true);
+    window.open('../index.html');
+
 }
 $('#loginform').on('submit', function () {
     $.ajax({
