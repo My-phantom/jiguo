@@ -22,6 +22,10 @@
   color: #ff444c;
   border-bottom: 2px solid red;
 }
+.report-new .report-new-text .col {
+  border-bottom: 3px solid #fa5735;
+  color: #fa5735;
+}
 .report-new-bottom {
   padding-top: 25px;
   background-color: #f7f7f7;
@@ -118,6 +122,102 @@
   border-radius: 10px;
 }
 .report-new-bottom .report-img ul li .img-bottom a {
+  font-size: 14px;
+  color: #cccccc;
+  line-height: 49px;
+}
+.report-new-bottom .report-img_ {
+  margin-left: 215px;
+  float: left;
+}
+.report-new-bottom .report-img_ ul li {
+  width: 700px;
+  margin-bottom: 14px;
+}
+.report-new-bottom .report-img_ ul li .li-box {
+  height: 414px;
+  position: relative;
+}
+.report-new-bottom .report-img_ ul li .li-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text {
+  position: absolute;
+  bottom: 0;
+  width: 700px;
+  padding-top: 24px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text span {
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 24px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .icon {
+  float: left;
+  margin-left: 24px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .icon img {
+  width: 25px;
+  height: 25px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .icon .name {
+  padding-left: 4px;
+  font-size: 14px;
+  color: red;
+  line-height: 25px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .icon .time {
+  padding-left: 4px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #cccccc;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .you {
+  font-size: 14px;
+  color: #cccccc;
+  float: right;
+  margin-right: 24px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .you .zan {
+  float: left;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .you .zan img {
+  width: 10px;
+  height: 10px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .you .zan span {
+  padding-left: 2px;
+  color: #cccccc;
+  font-size: 12px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .you .rep {
+  margin-left: 6px;
+  float: left;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .you .rep img {
+  width: 10px;
+  height: 10px;
+}
+.report-new-bottom .report-img_ ul li .li-box .img-text .call .you .rep span {
+  padding-left: 2px;
+  color: #cccccc;
+  font-size: 12px;
+}
+.report-new-bottom .report-img_ ul li .img-bottom {
+  height: 49px;
+  margin-top: 12px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+.report-new-bottom .report-img_ ul li .img-bottom a {
   font-size: 14px;
   color: #cccccc;
   line-height: 49px;

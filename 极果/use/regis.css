@@ -86,6 +86,7 @@ article .box .box-min {
 }
 article .box .box-min div {
   margin: 15px 0 ;
+  width: 600px;
 }
 article .box .box-min .text {
   width: 400px;
@@ -95,6 +96,85 @@ article .box .box-min .text {
   border: none;
   padding-left: 10px;
   color: #c4c3bf;
+  float: left;
+}
+article .box .box-min .p {
+  float: left;
+}
+article .box .box-min .user {
+  float: right;
+}
+article .box .box-min .username {
+  width: 400px;
+  height: 50px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  color: #c4c3bf;
+  float: left;
+}
+article .box .box-min .password {
+  width: 400px;
+  height: 50px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  color: #c4c3bf;
+  float: left;
+}
+article .box .box-min .copypass {
+  width: 400px;
+  height: 50px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  color: #c4c3bf;
+  float: left;
+}
+article .box .box-min .pho {
+  float: left;
+  line-height: 50px;
+  color: red;
+  margin-left: 10px;
+  display: none;
+}
+article .box .box-min .yz {
+  float: left;
+  line-height: 50px;
+  color: red;
+  margin-left: 10px;
+  display: none;
+}
+article .box .box-min .code {
+  float: left;
+  line-height: 50px;
+  color: red;
+  margin-left: 10px;
+  display: none;
+}
+article .box .box-min .user {
+  float: left;
+  line-height: 50px;
+  color: red;
+  margin-left: 10px;
+  display: none;
+}
+article .box .box-min .pass {
+  float: left;
+  line-height: 50px;
+  color: red;
+  margin-left: 10px;
+  display: none;
+}
+article .box .box-min .copyp {
+  float: left;
+  line-height: 50px;
+  color: red;
+  margin-left: 10px;
+  display: none;
 }
 article .box .box-min .picture {
   width: 230px;
@@ -104,6 +184,7 @@ article .box .box-min .picture {
   border: none;
   padding-left: 10px;
   color: #c4c3bf;
+  float: left;
 }
 article .box .box-min .verify {
   width: 230px;
@@ -113,6 +194,7 @@ article .box .box-min .verify {
   border: none;
   padding-left: 10px;
   color: #c4c3bf;
+  float: left;
 }
 article .box .box-min .huo {
   margin-left: 10px;
@@ -122,6 +204,7 @@ article .box .box-min .huo {
   border: 2px solid #c9c9c9;
   background-color: #fff;
   color: #c9c9c9;
+  float: left;
 }
 article .box .box-min .orgin {
   width: 400px;

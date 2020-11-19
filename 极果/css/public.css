@@ -125,9 +125,9 @@
   bottom: 18px;
 }
 .footer .footer-box .up {
-  position: absolute;
-  right: 10%;
-  bottom: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
 }
 .footer .footer-box .up a {
   display: block;
