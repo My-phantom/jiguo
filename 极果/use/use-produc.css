@@ -73,6 +73,7 @@ nav .nav div {
   float: right;
   color: #fff;
   text-align: right;
+  animation: tran 1s;
 }
 nav .nav div h1 {
   font-size: 26px;
@@ -94,6 +95,16 @@ nav .nav div button {
   padding: 8px 58px;
   font-size: 14px;
   border: none;
+}
+@keyframes tran {
+  from {
+    opacity: 0;
+    transform: translate(320px, -215px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
 }
 .nav-b {
   background-color: #f0f0f0;

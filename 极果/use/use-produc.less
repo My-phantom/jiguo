@@ -79,7 +79,7 @@ nav {
     margin-left: -200px;
 
     .nav {
-
+        
         div {
             margin-right: -100px;
             width: 320px;
@@ -87,6 +87,7 @@ nav {
             float: right;
             color: #fff;
             text-align: right;
+            animation: tran 1s;
 
             h1 {
                 font-size: 26px;
@@ -112,6 +113,18 @@ nav {
                 font-size: 14px;
                 border: none;
             }
+        }
+        @keyframes tran {
+            from{
+                opacity: 0;
+                // transform: translateX(320px);
+                transform: translate(320px,-215px);
+            }
+            to{
+                opacity: 1;
+                transform: translate(0px,0px);
+            }
+        
         }
     }
    
