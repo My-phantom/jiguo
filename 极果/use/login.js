@@ -1,5 +1,9 @@
 //用户
-var pass=$('#password').val()-0;
+if (localStorage.getItem('miss') == 'true') {
+    $('#tel').val(localStorage.getItem('username'));
+    $('#password').val(localStorage.getItem('password'));
+    $('.loadGiet').is(':checked');
+}
 $('#loginform').on('submit', function () {
     $.ajax({
         url: 'http://192.168.1.64:3000/users/login',
@@ -11,7 +15,15 @@ $('#loginform').on('submit', function () {
         success: function (res) {
             console.log(res)
             if (res.msg == '登录成功！') {
-                window.open('http://127.0.0.1:5500/index.html');
+                if ($('.loadGiet').is(':checked')) {
+                    localStorage.setItem('username', $('#tel').val());
+                    localStorage.setItem('password', $('#password').val());
+                    localStorage.setItem('miss',$('.loadGiet').is(':checked'))
+                } else {
+                    localStorage.clear();
+            
+                }
+                window.open('../index.html');
             }
         },
         dataType: 'json'
