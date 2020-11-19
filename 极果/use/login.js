@@ -2,7 +2,8 @@
 if (localStorage.getItem('miss') == 'true') {
     $('#tel').val(localStorage.getItem('username'));
     $('#password').val(localStorage.getItem('password'));
-    $('.loadGiet').is(':checked');
+    $('.loadGiet').attr('checked', true);
+    window.open('../index.html');
 }
 $('#loginform').on('submit', function () {
     $.ajax({
@@ -18,12 +19,12 @@ $('#loginform').on('submit', function () {
                 if ($('.loadGiet').is(':checked')) {
                     localStorage.setItem('username', $('#tel').val());
                     localStorage.setItem('password', $('#password').val());
-                    localStorage.setItem('miss',$('.loadGiet').is(':checked'))
+                    localStorage.setItem('miss', $('.loadGiet').is(':checked'))
                 } else {
                     localStorage.clear();
-            
+                    window.open('../index.html');
                 }
-                window.open('../index.html');
+
             }
         },
         dataType: 'json'
